@@ -23,7 +23,7 @@ Device Type: Differentiates between Desktop and Mobile devices.
 🚀 Live Demo
 You can host this project on any static web hosting service.
 
-Example URL: https://flix-decoy.netlify.app
+Example **URL:** `https://your-honeypot-deployment.netlify.app`
 
 📊 Data Collected
 When a user submits the form, the following data is captured and sent to your Telegram chat:
