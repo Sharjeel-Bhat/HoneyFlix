@@ -20,7 +20,6 @@ Device Type: Differentiates between Desktop and Mobile devices.
 
 🌐 No Backend Required: Operates as a purely static site (HTML, CSS, JS) that can be deployed for free on services like Netlify, Vercel, or GitHub Pages.
 
-🚀 Live Demo
 You can host this project on any static web hosting service.
 
 📊 Data Collected
@@ -61,9 +60,12 @@ GitHub Pages
 Once deployed, visit your site's URL, and any login attempts will be sent directly to your Telegram chat.
 
 📂 File Structure
-.
+
+
 ├── index.html      # The main HTML structure of the login page.
+
 ├── style.css       # All styling for the page to mimic Netflix.
+
 └── honeypot.js     # The core script for capturing data and sending it to Telegram.
 
 ⚠️ Disclaimer
