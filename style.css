@@ -22,7 +22,7 @@ body {
     width: 100%;
     height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0eaf-4b8e-b031-0f3cf4bd4d46e8e8c6e8-0d5d-4d59-8f3f-c93161a3e1ae/US-en-20240311-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+                
     background-size: cover;
     background-position: center;
     z-index: -1;
