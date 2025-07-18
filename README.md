@@ -28,7 +28,7 @@ Example URL: https://your-honeypot-deployment.netlify.app
 📊 Data Collected
 When a user submits the form, the following data is captured and sent to your Telegram chat:
 
-![Screenshot](C:\Users\sharj\Pictures\Screenshots\SS.png)
+![Screenshot](SS.png)
 
 ⚙️ Setup and Configuration
 Setting up your HoneyFlix instance takes less than 5 minutes.
@@ -70,3 +70,9 @@ Once deployed, visit your site's URL, and any login attempts will be sent direct
 
 ⚠️ Disclaimer
 This project is intended for educational and ethical purposes only. Using this tool to deceive legitimate users or collect their data without consent is illegal and unethical. The creator is not responsible for any misuse of this software. Always act in accordance with local laws and platform terms of service.
+
+
+📸 Website Preview
+Here is a preview of the HoneyFlix login page in action:
+
+![Screenshot](preview.png)
