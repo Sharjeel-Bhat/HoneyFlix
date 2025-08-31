@@ -1,4 +1,5 @@
-🎯 HoneyFlix - Advanced Phishing Simulation
+🎯 HoneyFlix - Advanced Phishing Simulation 
+
 HoneyFlix is a high-fidelity, Netflix-style login honeypot designed for cybersecurity research, testing, and threat intelligence gathering. It captures not only login credentials but also detailed device and browser fingerprints, providing deep insights into attacker profiles. All captured data is sent in real-time to a private Telegram chat for instant analysis.
 
 ✨ Key Features
